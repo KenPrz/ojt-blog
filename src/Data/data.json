@@ -1,0 +1,38 @@
+{
+    "blog_title": "My Blog",
+    "blog_description": "This is my blog",
+    "nav_links": [
+        {
+            "name": "Home",
+            "url": "/"
+        },
+        {
+            "name": "About",
+            "url": "/about"
+        },
+        {
+            "name": "Contact",
+            "url": "/contact"
+        }
+    ],
+    "posts": [
+        {
+            "title": "week 1",
+            "date": "2020-01-01",
+            "content": "On our first we we were oriented by our instructor. We were given a detailed introduction to the work we would be doing in the coming weeks on the length of our internship",
+            "image": "https://via.placeholder.com/1080x720"
+        },
+        {
+            "title":"week 2",
+            "date": "2020-01-08",
+            "content": "on this week we were introduced to the technologies that the office utilizes in their day to day development. We were also given a brief introduction to the projects we would be working on in the coming weeks",
+            "image": "https://via.placeholder.com/1920x1080"
+        },
+        {
+            "title":"week 3",
+            "date": "2020-01-15",
+            "content": "This week, we kicked off the semester with our first project: the Bicol University Clientele Management System (BUCSM). This system is designed to streamline the university's compliance with the Anti-Red Tape Act (ARTA) by allowing staff to monitor service ratings across different university offices.",
+            "image": null
+        }
+    ]
+}
