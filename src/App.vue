@@ -1,23 +1,26 @@
 <script setup>
 import NavBar from './components/NavBar.vue';
 import Card from './components/Card.vue';
+import Header from './components/Header.vue';
 </script>
 <template>
   <div>
     <NavBar :nav-links="data.nav_links" />
-    <section class="bg-secondary py-20">
+    <section class="py-3">
       <div class="container mx-auto">
-        <h1 class="text-4xl font-bold text-center text-primary">Welcome to My Blog</h1>
-        <p class="mt-4 text-lg text-center text-gray-700">Stay updated with my OJT Journey in BUICTO</p>
+        <div class="flex justify-center items-center h-full"> <!-- Center horizontally and vertically -->
+          <div class="text-xl font-bold relative">My OJT BLOG</div>
+        </div>
+        <Header class="absolute" />
       </div>
     </section>
     <main class="container mx-auto mt-10">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <Card v-for="post in data.posts" :key="post" 
           :title="post.title" 
-          :sub_title="post.sub_title" 
+          :sub_title="post.sub_title"
           :content="post.content"
-          :image="post.image"
+          :images="post.images"
         />
       </div>
     </main>

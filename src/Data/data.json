@@ -17,22 +17,53 @@
     ],
     "posts": [
         {
-            "title": "week 1",
+            "title": "Week 1",
             "date": "2020-01-01",
             "content": "On our first we we were oriented by our instructor. We were given a detailed introduction to the work we would be doing in the coming weeks on the length of our internship",
-            "image": "https://via.placeholder.com/1080x720"
+            "images": {
+                "image1":"/src/assets/images/week1/image1.jpg",
+                "image2":"/src/assets/images/week1/image2.jpg",
+                "image3":"/src/assets/images/week1/image3.jpg"
+            }
         },
         {
-            "title":"week 2",
+            "title":"Week 2",
             "date": "2020-01-08",
             "content": "on this week we were introduced to the technologies that the office utilizes in their day to day development. We were also given a brief introduction to the projects we would be working on in the coming weeks",
-            "image": "https://via.placeholder.com/1920x1080"
+            "images": {
+                "image1":"/src/assets/images/week2/image1.jpg",
+                "image2":"/src/assets/images/week2/image2.jpg",
+                "image3":"/src/assets/images/week2/IMG20240205082722.jpg",
+                "image4":"/src/assets/images/week2/IMG20240205082758.jpg",
+                "image5":"/src/assets/images/week2/IMG20240205082804.jpg",
+                "image6":"/src/assets/images/week2/IMG20240205105249.jpg",
+                "image7":"/src/assets/images/week2/IMG20240205105252.jpg",
+                "image8":"/src/assets/images/week2/IMG20240205105301.jpg",
+                "image9":"/src/assets/images/week2/IMG20240205133537.jpg",
+                "image10":"/src/assets/images/week2/IMG20240205142414.jpg",
+                "image11":"/src/assets/images/week2/IMG20240205142422.jpg",
+                "image12":"/src/assets/images/week2/IMG20240205142454.jpg"
+            }
         },
         {
-            "title":"week 3",
+            "title":"Week 3",
             "date": "2020-01-15",
             "content": "This week, we kicked off the semester with our first project: the Bicol University Clientele Management System (BUCSM). This system is designed to streamline the university's compliance with the Anti-Red Tape Act (ARTA) by allowing staff to monitor service ratings across different university offices.",
-            "image": null
+            "images": {
+                "image1":"/src/assets/images/week3/image1.jpg",
+                "image2":"/src/assets/images/week3/image6.jpg",
+                "image3":"/src/assets/images/week3/received_1072216683890729.jpeg",
+                "image4":"/src/assets/images/week3/received_1119591759477766.jpeg",
+                "image5":"/src/assets/images/week3/received_1450879379182395.jpeg",
+                "image6":"/src/assets/images/week3/received_2566009270273246.jpeg",
+                "image7":"/src/assets/images/week3/received_368284049385732.jpeg",
+                "image8":"/src/assets/images/week3/received_368447342632935.jpeg",
+                "image9":"/src/assets/images/week3/received_3702791019991617.jpeg",
+                "image10":"/src/assets/images/week3/received_6693104874127098.jpeg",
+                "image11":"/src/assets/images/week2/received_707733038011054.jpeg",
+                "image12":"/src/assets/images/week2/received_7146020875490138.jpeg",
+                "image13":"/src/assets/images/week2/received_932264635156057.jpeg"
+            }
         }
     ]
 }
