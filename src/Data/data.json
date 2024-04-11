@@ -1,20 +1,30 @@
 {
-    "blog_title": "My Blog",
-    "blog_description": "This is my blog",
-    "nav_links": [
+    "blog_title": "BUICTO Internship Blog",
+    "blog_description":{
+        "section1": "This blog is the documentation of my internship in BUICTO in bicol university, in this internship we eplored the different technologies that the office utilizes in their day to day development.",
+        "section2": "During this internship, we worked on the Bicol University Clientele Management System (BUCSM). This system is designed to streamline the university's compliance with the Anti-Red Tape Act (ARTA) by allowing staff to monitor service ratings across different university offices.",
+        "section3": "Additionally, we developed the NSTP Student Management System to monitor the records of all students who have taken the NSTP program in the university."
+    },
+        "nav_links": [
         {
             "name": "Home",
             "url": "/"
         },
         {
-            "name": "About",
-            "url": "/about"
+            "name": "Projects",
+            "url": "/projects"
         },
         {
-            "name": "Contact",
-            "url": "/contact"
+            "name": "Weekly Documentation",
+            "url": "/documentation"
         }
     ],
+    "projects": {
+        "project1":{
+            "project_name": "Bicol University Clientele Management System (BUCSM)",
+            "project_description": "This system is designed to streamline the university's compliance with the Anti-Red Tape Act (ARTA) by allowing staff to monitor service ratings across different university offices."
+        }
+    },
     "posts": [
         {
             "title": "Week 1",
